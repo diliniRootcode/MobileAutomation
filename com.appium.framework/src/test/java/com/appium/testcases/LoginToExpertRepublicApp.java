@@ -20,7 +20,7 @@ public class LoginToExpertRepublicApp extends BaseClass {
 		logger= report.createTest("Login to App");
         
 		logger.pass("---> App started and going to loging to the app<---");
-        Thread.sleep(4000);
+        Thread.sleep(6000);
         
         LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
         

@@ -79,7 +79,7 @@ public class BaseClass {
 		System.out.println("Application started");
 		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		Thread.sleep(10000);
+		Thread.sleep(20000);
 		
 		}catch(Exception exp) {
 			System.out.println("Cause is : "+exp.getCause());

@@ -48,6 +48,7 @@ public class LoginPage {
 	public void login(String email, String password) throws InterruptedException
 	{
 		
+		Thread.sleep(3000);
 		sidemenu.click();
 		System.out.println("----->>Side menu clicked.........>>");
 		Thread.sleep(4000);
