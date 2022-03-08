@@ -155,8 +155,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.appium.testcases.LoginToExpertRepublicApp&quot;/&gt;
     &lt;/classes&gt;
@@ -202,11 +202,11 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LoginToApp')
 data.setCell(0, 2, 'com.appium.testcases.LoginToExpertRepublicApp')
-data.setCell(0, 3, 43393);
+data.setCell(0, 3, 42797);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'LogOutFromApp')
 data.setCell(1, 2, 'com.appium.testcases.LoginToExpertRepublicApp')
-data.setCell(1, 3, 35887);
+data.setCell(1, 3, 38509);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -244,23 +244,23 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">563 ms</span>
+                <span class="method-start">478 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">LoginToApp</span>
-                <span class="method-start">19066 ms</span>
+                <span class="method-start">19028 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownMethod([TestResult name=LoginToApp status=SUCCESS method=LoginToExpertRepublicApp.LoginToApp()[pri:1, insta...)</span>
-                <span class="method-start">62463 ms</span>
+                <span class="method-start">61827 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">LogOutFromApp</span>
-                <span class="method-start">63506 ms</span>
+                <span class="method-start">62948 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownMethod([TestResult name=LogOutFromApp status=SUCCESS method=LoginToExpertRepublicApp.LogOutFromApp()[pri:2,...)</span>
-                <span class="method-start">99394 ms</span>
+                <span class="method-start">101457 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
