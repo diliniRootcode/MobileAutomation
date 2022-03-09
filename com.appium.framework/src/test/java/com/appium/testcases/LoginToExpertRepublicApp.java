@@ -50,7 +50,7 @@ public class LoginToExpertRepublicApp extends BaseClass {
 	
 	}
 	
-	@Test(priority = 2 )
+	@Test(enabled = false)
 	public void LogOutFromApp() throws InterruptedException, IOException
 	{
 		

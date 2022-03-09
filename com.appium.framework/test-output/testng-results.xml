@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Setting up reports and test is getting ready]]>
@@ -13,19 +13,13 @@
     <line>
       <![CDATA[Test completed >> Report Generated]]>
     </line>
-    <line>
-      <![CDATA[Test is about to end]]>
-    </line>
-    <line>
-      <![CDATA[Test completed >> Report Generated]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-03-08T11:49:53 IST" name="Suite" finished-at="2022-03-08T11:51:33 IST" duration-ms="100211">
+  <suite started-at="2022-03-09T10:43:48 IST" name="Default suite" finished-at="2022-03-09T10:45:20 IST" duration-ms="91863">
     <groups>
     </groups>
-    <test started-at="2022-03-08T11:49:53 IST" name="Test" finished-at="2022-03-08T11:51:33 IST" duration-ms="100211">
+    <test started-at="2022-03-09T10:43:48 IST" name="Default test" finished-at="2022-03-09T10:45:20 IST" duration-ms="91863">
       <class name="com.appium.testcases.LoginToExpertRepublicApp">
-        <test-method is-config="true" signature="setUpexcelSuite()[pri:0, instance:com.appium.testcases.LoginToExpertRepublicApp@399f45b1]" started-at="2022-03-08T11:49:53 IST" name="setUpexcelSuite" finished-at="2022-03-08T11:49:53 IST" duration-ms="550" status="PASS">
+        <test-method is-config="true" signature="setUpexcelSuite()[pri:0, instance:com.appium.testcases.LoginToExpertRepublicApp@564fabc8]" started-at="2022-03-09T10:43:48 IST" name="setUpexcelSuite" finished-at="2022-03-09T10:43:48 IST" duration-ms="493" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Setting up reports and test is getting ready]]>
@@ -35,40 +29,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpexcelSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.appium.testcases.LoginToExpertRepublicApp@399f45b1]" started-at="2022-03-08T11:49:53 IST" name="setup" finished-at="2022-03-08T11:50:12 IST" duration-ms="18495" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.appium.testcases.LoginToExpertRepublicApp@564fabc8]" started-at="2022-03-09T10:43:48 IST" name="setup" finished-at="2022-03-09T10:44:17 IST" duration-ms="28769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginToApp()[pri:1, instance:com.appium.testcases.LoginToExpertRepublicApp@399f45b1]" started-at="2022-03-08T11:50:12 IST" name="LoginToApp" finished-at="2022-03-08T11:50:55 IST" duration-ms="43393" status="PASS">
+        <test-method signature="LoginToApp()[pri:1, instance:com.appium.testcases.LoginToExpertRepublicApp@564fabc8]" started-at="2022-03-09T10:44:17 IST" name="LoginToApp" finished-at="2022-03-09T10:45:19 IST" duration-ms="61985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginToApp -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.appium.testcases.LoginToExpertRepublicApp@399f45b1]" started-at="2022-03-08T11:50:55 IST" name="tearDownMethod" finished-at="2022-03-08T11:50:56 IST" duration-ms="1040" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.appium.testcases.LoginToExpertRepublicApp@564fabc8]" started-at="2022-03-09T10:45:19 IST" name="tearDownMethod" finished-at="2022-03-09T10:45:20 IST" duration-ms="1085" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginToApp status=SUCCESS method=LoginToExpertRepublicApp.LoginToApp()[pri:1, instance:com.appium.testcases.LoginToExpertRepublicApp@399f45b1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Test is about to end]]>
-            </line>
-            <line>
-              <![CDATA[Test completed >> Report Generated]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method signature="LogOutFromApp()[pri:2, instance:com.appium.testcases.LoginToExpertRepublicApp@399f45b1]" started-at="2022-03-08T11:50:56 IST" name="LogOutFromApp" finished-at="2022-03-08T11:51:32 IST" duration-ms="35887" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogOutFromApp -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.appium.testcases.LoginToExpertRepublicApp@399f45b1]" started-at="2022-03-08T11:51:32 IST" name="tearDownMethod" finished-at="2022-03-08T11:51:33 IST" duration-ms="1368" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LogOutFromApp status=SUCCESS method=LoginToExpertRepublicApp.LogOutFromApp()[pri:2, instance:com.appium.testcases.LoginToExpertRepublicApp@399f45b1] output={null}]]]>
+                <![CDATA[[TestResult name=LoginToApp status=SUCCESS method=LoginToExpertRepublicApp.LoginToApp()[pri:1, instance:com.appium.testcases.LoginToExpertRepublicApp@564fabc8] output={null}]]]>
               </value>
             </param>
           </params>
@@ -82,6 +55,6 @@
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
       </class> <!-- com.appium.testcases.LoginToExpertRepublicApp -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -1,4 +1,7 @@
 package com.appium.pages;
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -24,7 +27,7 @@ public class LoginPage {
 	
 	@FindBy(xpath="//*[@text = 'Chat with expert' and @index = '0']") WebElement Chatwithexpertbtn;
 	
-	@FindBy(xpath="//*[@class = 'android.view.ViewGroup' and @index = '6']") WebElement Loginbtn1;
+	@FindBy(xpath="//*[@text = 'Login' and @index = '0']") WebElement Loginbtn1;
 	
 	@FindBy(xpath="//*[@text = 'E-mail address' and @index = '3']") WebElement Email;
 	
@@ -32,7 +35,9 @@ public class LoginPage {
 	
 	@FindBy(xpath="//*[@text = 'LOGIN' and @index = '0']") WebElement Loginbtn2;
 	
-	@FindBy(xpath="//*[@text = '󰍜' and @index = '0']") WebElement sidemenu;
+	@FindBy(xpath="//*[@text = '󰍜' and @index = '0']") WebElement sidemenu1;
+	
+	@FindBy(xpath="//*[@class = 'android.widget.TextView' and @index = '0']") List<WebElement> sidemenu;
 	
 	@FindBy(xpath="//*[@class = 'android.view.ViewGroup' and @index = '8']") WebElement switchToCustomer;
 	
@@ -45,12 +50,21 @@ public class LoginPage {
 	
 	
 	
+	
 	public void login(String email, String password) throws InterruptedException
 	{
 		
 		Thread.sleep(3000);
-		sidemenu.click();
-		System.out.println("----->>Side menu clicked.........>>");
+		driver.findElement(By.xpath("(((//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.widget.ScrollView']]/*/*[@class='android.view.ViewGroup' and ./parent::*[@class='android.widget.HorizontalScrollView']])[1]/*/*[@class='android.view.ViewGroup' and ./parent::*[@class='android.view.ViewGroup']])[1]/*[@class='android.widget.ImageView'])[1]")).click();
+		System.out.println("----->>main category clicked.........>>");
+		Thread.sleep(4000);
+		
+		driver.findElement(By.xpath("((//*[@class='android.view.ViewGroup' and ./parent::*[@class='android.widget.ScrollView' and ./parent::*[./parent::*[@class='android.widget.ScrollView']]]]/*/*[@class='android.view.ViewGroup' and ./parent::*[@class='android.view.ViewGroup']])[1]/*/*[@class='android.widget.ImageView' and ./parent::*[@class='android.view.ViewGroup']])[1]")).click();		System.out.println("----->>main category clicked.........>>");
+		System.out.println("----->>Sub category clicked.........>>");
+		Thread.sleep(4000);
+		
+		Chatwithexpertbtn.click();
+		System.out.println("----->>Chat with expert button clicked.........>>");
 		Thread.sleep(4000);
 		
 		Loginbtn1.click();
@@ -79,7 +93,7 @@ public class LoginPage {
 	public void logout() throws InterruptedException
 	{
 		
-		sidemenu.click();
+		sidemenu.get(0).click();
 		System.out.println("----->>Side menu clicked.........>>");
 		Thread.sleep(4000);
 		
