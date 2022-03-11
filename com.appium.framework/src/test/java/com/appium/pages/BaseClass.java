@@ -58,9 +58,9 @@ public class BaseClass {
 		//cap.setCapability("udid", "e2345f5");
 	
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "OPPO A5 2020");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
-		cap.setCapability(MobileCapabilityType.UDID, "e2345f5");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Xiaomi Redmi Note 7");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
+		//cap.setCapability(MobileCapabilityType.UDID, "192.168.174.101:5555");
 		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 60);
 		//cap.setCapability(MobileCapabilityType.APP, "");
 		cap.setCapability("noReset",true);
